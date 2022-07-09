@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577122241149",
+    "project_id": "chillpill-43d9a",
+    "storage_bucket": "chillpill-43d9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577122241149:android:a32578019787151e637f14",
+        "android_client_info": {
+          "package_name": "com.example.chillpill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577122241149-26qsemlkrd85qnehb6idl8573oplk0kg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCorMppK_FX5hha43I_PIHHuC29qC5xFh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577122241149-26qsemlkrd85qnehb6idl8573oplk0kg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

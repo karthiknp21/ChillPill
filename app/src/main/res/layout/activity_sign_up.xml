@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:noHistory="true"
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/suLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="731dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/suName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50.0dip"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="50.0dip"
+                    android:ems="10"
+                    android:hint="Enter your full name"
+                    android:inputType="textPersonName"
+                    android:minHeight="48.0dip"
+                    android:paddingStart="20.0dip"
+                    android:paddingEnd="20.0dip" />
+
+                <EditText
+                    android:id="@+id/suEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_marginEnd="50.0dip"
+                    android:ems="10"
+                    android:hint="Enter your E-mail ID"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48.0dip"
+                    android:paddingStart="20.0dip"
+                    android:paddingEnd="20.0dip" />
+
+                <EditText
+                    android:id="@+id/suPassword1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_marginEnd="50.0dip"
+                    android:ems="10"
+                    android:hint="Enter your password"
+                    android:inputType="textPassword"
+                    android:minHeight="48.0dip"
+                    android:paddingStart="20.0dip"
+                    android:paddingEnd="20.0dip" />
+
+                <EditText
+                    android:id="@+id/suPassword2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_marginEnd="50.0dip"
+                    android:ems="10"
+                    android:hint="Re-enter the password"
+                    android:inputType="textPassword"
+                    android:minHeight="48.0dip"
+                    android:paddingStart="20.0dip"
+                    android:paddingEnd="20.0dip" />
+
+                <Button
+                    android:id="@+id/suButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="150.0dip"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="150.0dip"
+                    android:hint="Sign Up"
+                    android:text="Sign Up" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:minHeight="48.0dip"
+                    android:onClick="siIntent"
+                    android:text="Already have an account? Sign in" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
